@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5520265126816206632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7877603
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3899999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.25822118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a15ffcaed4c394ccabc3539f439fd598, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 856140990312241369}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7914842400707379904}
+  m_SourcePrefab: {fileID: 100100000, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+--- !u!1 &4637161923930387065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 40b0e7eba2f4f43bca34d1f1bf232025, type: 3}
+  m_PrefabInstance: {fileID: 5520265126816206632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &856140990312241369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637161923930387065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d52f3787b3d45ada330adc61104299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::npcRunning
+  target: {fileID: 0}
+  speed: 5
+  NPC_health: 100
+--- !u!114 &7914842400707379904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637161923930387065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f12d4a08d88844bb979b45c8bd3a0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyManifest
+  enemyPrefab: {fileID: 4637161923930387065}
+  maxEnemies: 10
+  enemyTag: Enemy
+  xMin: 0
+  xMax: 50
+  zMin: 0
+  zMax: 30
+  yHeight: 1
+  spawnDelay: 0.5
